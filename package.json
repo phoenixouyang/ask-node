@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "chromadb": "^3.3.3",
+    "dotenv": "^17.3.1",
+    "openai": "^6.27.0"
+  }
+}
