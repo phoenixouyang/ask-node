@@ -102,7 +102,9 @@ Here is the relevant official documentation context:
 `
 
         sysPrompt += docTags
-        // console.error(docTags);
+        console.error(`+++++++++++++++++++++++++ SOURCES +++++++++++++++++++++++++`);
+        console.error(docTags);
+        console.error(`+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++`);
     });
     sysPrompt += "</context>";
 
