@@ -85,7 +85,7 @@ async function main() {
         console.log(`--- Result ${i + 1} (similarity: ${similarity}) ---`);
         console.log(`ID: ${ids[i]}`);
         console.log(`Breadcrumb: ${breadcrumb}`);
-        console.log(`Excerpt: ${doc?.slice(0, 150)}...`);
+        console.log(`Excerpt: ${doc}...`);
         console.log();
     });
 }
